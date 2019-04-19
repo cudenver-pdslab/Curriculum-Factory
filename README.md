@@ -13,7 +13,7 @@ We present a new system that automatically generates input path (syllabus) a con
 
 
 <div align="center">
-  <img src="https://github.com/cudenver-pdslab/Curriculum-Factory/blob/master/Artifacts/curriculum_factory_github.png">
+  <img src="https://github.com/cudenver-pdslab/Curriculum-Factory/blob/master/Artifacts/curriculum_learning_github.png">
 </div>
 
 ## Performance Metric
