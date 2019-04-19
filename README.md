@@ -15,3 +15,33 @@ We present a new system that automatically generates input path (syllabus) a con
 <div align="center">
   <img src="https://github.com/cudenver-pdslab/Curriculum-Factory/blob/master/Artifacts/curriculum_factory_2.png">
 </div>
+
+## Performance Metric
+
+## Training Preformance 
+
+<div align="center">
+  <img src="https://github.com/cudenver-pdslab/Curriculum-Factory/blob/master/Artifacts/CIFAR10AND100.png">
+</div>
+
+
+### Classificatoin Accurcay on CIFAR10 and CIFAR100 datasets 
+
+| Network     | CIFAR10 (test acc. %)  | CIFAR100 (test acc. %) | Curriculum |
+| ---             | ---    | ---       | ---          |
+| GoogleNet	| 0.528	| 0.433	| None |
+| GoogleNet-MI |	0.615	| 0.358 |	[Mutual Information](https://en.wikipedia.org/wiki/Mutual_information)|
+| GoogleNet-MIN |	0.456 |	0.146 |	[Mutual Information Normalized](https://en.wikipedia.org/wiki/Mutual_information) |
+| GoogleNet-IV |	0.671 | 0.456 |	[Information Variation](https://en.wikipedia.org/wiki/Variation_of_information) |
+|GoogleNet-JE|	0.586|	0.489|	[Joint Entropy](https://en.wikipedia.org/wiki/Joint_entropy)|
+|ResNet|	0.954|	0.791	|None|
+|ResNet-MI	|0.945	|0.842|	MI|
+|ResNet-MIN|	0.973|	0.789|	MIN|
+|ResNet-IV|	0.943	|0.849|IV|
+|ResNet-JE|	0.924|	0.851	|JE|
+|VGG	|0.922|	0.645|	None|
+|VGG-MI	|0.945|	0.512|	MI |
+|VGG-MIN|	0.904	|0.602|	MIN|
+|VGG-IV|	0.897|	0.698|	IV|
+|VGG-JE|	0.943|	0.631|	JE|
+
